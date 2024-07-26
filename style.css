@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #444;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+/* Introduction Section */
+#introduction {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #6c63ff; /* Profile image border color */
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#projects .project {
+    background-color: #6c63ff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+#projects .project:hover {
+    background-color: #5149d3; /* Darker shade on hover */
+}
+
+#projects a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* About Me Section */
+#about {
+    background-color: #e0e0e0;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
